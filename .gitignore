@@ -1,0 +1,8 @@
+/build
+node_modules
+npm-debug.log
+*.DS_Store
+.DS_Store
+*.css.map
+public/stylesheets/style.css
+*.js.map

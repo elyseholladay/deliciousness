@@ -1,0 +1,65 @@
+@import "test/atoms/colors";
+@import url('https://fonts.googleapis.com/css?family=Rubik|Crimson-Text');
+
+
+/* ------------------------------------------------------------------------- */
+/* TYPOGRAPHY -------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+
+$font-primary: 'Crimson Text', Georgia, serif;
+$font-secondary: 'Rubik', Futura, Helvetica, sans-serif;
+
+
+body {
+	color: $font-color;
+	font-family: $font-primary;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1;
+	font-weight: normal;
+	font-family: $font-secondary;
+	color: $wildblueyonder;
+}
+
+
+h1 {
+	color: $tearose;
+	font-family: $font-primary;
+    margin-bottom: .25em;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.9em;
+	margin-bottom: .25em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight: 400;
+    margin: 2em 0 1em;
+}
+
+h5 {
+    font-weight: 500;
+    margin: 0 0 .5em;
+}
+
+p {
+    font-size: 1.1em;
+    margin-top: 0;
+}
+
+a, a:active, a:visited {
+    text-decoration: none;
+    transition: .5s color ease;
+    color: $cadetgrey;
+}
+a:hover, a:focus {
+    color: $wildblueyonder;
+}
