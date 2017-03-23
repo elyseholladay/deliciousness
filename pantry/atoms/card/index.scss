@@ -14,12 +14,19 @@
 
 .card-title {} // inherits from h2
 
+// this does not affect the h3 in card-list, yet still inherits via element
 .card-subtitle {
+	margin: 1em 0;
 	color: $tearose;
-	font-style: italic;
-	font-weight: 700;
-	margin-bottom: 2em;
 }
+
+
+// if we use a h3 or shared class here, we affect the h3 in card-list
+// h3 {
+// 	margin: 1em 0;
+// 	color: red;
+// }
+
 
 .card-image {
 	margin-bottom: 1em;
