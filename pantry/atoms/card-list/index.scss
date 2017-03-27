@@ -1,0 +1,15 @@
+@import "deliciousness/atoms/colors";
+@import "deliciousness/atoms/typography";
+@import "deliciousness/atoms/card";
+
+/* ------------------------------------------------------------------------- */
+/* CARD LIST --------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+
+.card-list {
+	margin-bottom: 2em;
+
+	.card {
+		margin-bottom: 2em;
+	}
+}
