@@ -1,3 +1,33 @@
+@import "deliciousness/atoms/colors";
+@import "deliciousness/atoms/typography";
+
+/* ------------------------------------------------------------------------- */
+/* CARD -------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+
 .card {
-    background: red;
+	padding: 2em 1em;
+	min-width: 320px;
+	max-width: 900px;
+	background: $linen;
+}
+
+.card-title {} // inherits from h2
+
+.card-image {
+	margin-bottom: 1em;
+	max-width: 100%;
+}
+
+.card-description {
+	margin-bottom: 1em;
+}
+
+.card-price {
+	font-family: $font-secondary;
+	color: $wildblueyonder;
+}
+
+.card-price-number {
+	font-weight: 600;
 }
